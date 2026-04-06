@@ -1,7 +1,6 @@
 import java.util.*;
 
 public class TermsAndCondition {
-
     public int[] solution(String today, String[] terms, String[] privacies) {
         List<Integer> answer = new ArrayList<>();
         String[] todayDate = today.split("\\.");
